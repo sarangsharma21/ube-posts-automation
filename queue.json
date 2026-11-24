@@ -10,10 +10,42 @@
     "post_url": "https://www.instagram.com/ubeculture/p/DgJBlS7y89P/"
   },
   {
+    "id": "post_01_hero",
+    "image": "posts/ready/UbeCulture_Post_01_HeroPouchMinimal.jpg",
+    "caption": "Single-origin Philippine ube powder milled fine for clean pours and bakes.\n\nPure Purple Power starts with real stone-milled purple yam and zero artificial colours, ready for café espresso bars and home kitchens alike.\n\nComment POUCH if you want the 100g starter link.\n\n#UbeCulture #UbePowder #PhilippineUbe #CleanIngredients",
+    "alt_text": "Minimalist studio shot of the 100g Ube Culture powder pouch on a stone pedestal.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_02",
+    "image": "posts/ready/UbeCulture_Post_02_IcedUbeLattePour.jpg",
+    "caption": "Cool down with a 60-second iced ube latte.\n\nWhisk 1 tsp Ube Powder with warm water, fill a tall glass with ice and oat milk, then pour the purple cream over the top and watch it swirl.\n\nSave this recipe for your afternoon pour.\n\n#IcedUbeLatte #UbeCulture #HomeBarista #UbeDrinks",
+    "alt_text": "Purple ube cream pouring into a tall glass of iced oat milk with a 3-step latte recipe.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
     "id": "post_03",
     "image": "posts/ready/UbeCulture_Post_03_BoostImmunity.jpg",
     "caption": "Why chefs are swapping artificial purple syrup for real purple yam.\n\nTrue ube gets its color from natural anthocyanins, the same antioxidants found in blueberries, with zero synthetic dye.\n\nSave this post for your next seasonal menu update.\n\n#UbeCulture #RealUbe #CleanIngredients #CafeMenu",
     "alt_text": "Infographic highlighting natural antioxidant and plant-based benefits of Ube Culture powder.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_04",
+    "image": "posts/ready/UbeCulture_Post_04_FiveStarCafeLove.jpg",
+    "caption": "Why cafés across India are putting real ube on the permanent menu.\n\nPartners love the creamy vanilla-nut finish and vibrant natural colour that makes iced ube lattes their top seasonal seller.\n\nComment PARTNER if your café wants a sample tasting kit.\n\n#UbeCulture #CafeIndia #IcedUbeLatte #SpecialtyCoffeeIndia",
+    "alt_text": "Iced ube latte beside a flaky croissant with a five-star verified café partner quote.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_05",
+    "image": "posts/ready/UbeCulture_Post_05_PhilippineTerraces.jpg",
+    "caption": "From Philippine volcanic hills straight to your espresso bar.\n\nSun-grown purple yams are harvested at peak ripeness, stone-milled at low heat, and sealed fresh for single-origin purity across India.\n\nSave this to share the story behind your purple pour.\n\n#PhilippineUbe #UbeCulture #SingleOrigin #PurpleYam",
+    "alt_text": "Basket of freshly harvested Philippine purple yams overlooking terraced green hillsides.",
     "status": "pending",
     "scheduled_for": ""
   },
@@ -110,6 +142,270 @@
     "image": "posts/ready/UbeCulture_Post_17_MorningPowerBowl.jpg",
     "caption": "Smoothie bowls with real flavor instead of plain acai copies.\n\nBlend frozen banana, Greek yogurt, and one spoon of Philippine ube powder for a thick, naturally sweet breakfast bowl.\n\nSave this bowl for tomorrow morning.\n\n#UbeBowl #SmoothieBowl #UbeCulture #HealthyBreakfast",
     "alt_text": "Top-down purple ube smoothie bowl garnished with granola, fruit, and seeds.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_18",
+    "image": "posts/ready/UbeCulture_Post_18_UbeTiramisu.jpg",
+    "caption": "Espresso-soaked ladyfingers meet silky ube mascarpone cream.\n\nSwap standard cocoa on top for a fine dusting of pure Ube Culture powder right before serving for a deep violet finish.\n\nSave this twist on classic tiramisu.\n\n#UbeTiramisu #UbeDessert #UbeCulture #PastryChef",
+    "alt_text": "Glass coupe filled with ube tiramisu layered with whipped purple mascarpone and ladyfingers.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_19",
+    "image": "posts/ready/UbeCulture_Post_19_UbeCroissant.jpg",
+    "caption": "Crisp laminated layers piped with whipped ube diplomat cream.\n\nMicro-milled Philippine ube powder folds cleanly into pastry cream with stable natural colour and zero artificial aftertaste.\n\nTag a bakery that needs this on the morning counter.\n\n#UbeCroissant #ArtisanBakery #UbeCulture #PastryIndia",
+    "alt_text": "Flaky golden croissant split open and generously piped with purple ube diplomat cream.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_20",
+    "image": "posts/ready/UbeCulture_Post_20_PairingsGuide.jpg",
+    "caption": "Four ingredients that bring out the best in real ube.\n\nPair Philippine ube powder with espresso for a dirty latte, ceremonial matcha for contrast, white chocolate in ganache, or tender coconut over ice.\n\nSave this flavour pairing cheat sheet.\n\n#UbePairings #MenuDevelopment #UbeCulture #BaristaRecipes",
+    "alt_text": "Four-panel flavour pairing guide matching ube with espresso, matcha, white chocolate, and tender coconut.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_21",
+    "image": "posts/ready/UbeCulture_Post_21_UbeMilkshake.jpg",
+    "caption": "A thick purple milkshake ready in 15 seconds flat.\n\nBlend vanilla gelato, chilled milk, and 1 tbsp pure Ube Powder for instant diner creaminess with real toasted yam flavour.\n\nSave this quick summer shake recipe.\n\n#UbeMilkshake #DessertDrinks #UbeCulture #CafeMenu",
+    "alt_text": "Tall fountain glass of purple ube milkshake topped with whipped cream and ube dust.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_22",
+    "image": "posts/ready/UbeCulture_Post_22_NutrientBreakdown.jpg",
+    "caption": "100% pure Dioscorea alata with zero refined sugar or fillers.\n\nReal purple yam delivers plant anthocyanins, prebiotic resistant starch for digestion, plus vitamin C and potassium for steady energy.\n\nSave this nutrition breakdown for reference.\n\n#UbeNutrition #CleanEating #UbeCulture #PlantBasedIndia",
+    "alt_text": "Nutrition breakdown card detailing anthocyanins, prebiotic fiber, vitamin C, and potassium in 100% pure ube.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_23",
+    "image": "posts/ready/UbeCulture_Post_23_UbePopsicles.jpg",
+    "caption": "Five minutes of prep for creamy ube-coconut popsicles.\n\nWhisk coconut milk, condensed milk, and 2 tsp Ube Powder, pour into moulds, and freeze overnight with toasted coconut flakes.\n\nSave this freezer hack for warm afternoons.\n\n#UbePopsicles #SummerDesserts #UbeCulture #HomemadeTreats",
+    "alt_text": "Two purple ube and coconut popsicles coated with toasted coconut flakes on ice.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_24",
+    "image": "posts/ready/UbeCulture_Post_24_GlutenFreeFAQ.jpg",
+    "caption": "Yes, pure Philippine ube is naturally 100% gluten-free.\n\nBecause our powder is a single-ingredient dehydrated root vegetable, it fits gluten-free cakes, mochi waffles, and vegan menus easily.\n\nComment any ingredient question you want answered next.\n\n#GlutenFreeIndia #VeganIngredients #UbeCulture #CleanLabel",
+    "alt_text": "FAQ card confirming Ube Culture powder is 100% gluten-free, vegan, and single-ingredient.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_25",
+    "image": "posts/ready/UbeCulture_Post_25_UbeMochiWaffles.jpg",
+    "caption": "Crisp waffle edges outside, bouncy mochi chew inside.\n\nSwap regular flour for sweet rice flour and 2 tsp Ube Powder, then top with whipped ube butter and fresh berries.\n\nSave this weekend waffle upgrade.\n\n#UbeWaffles #MochiWaffles #UbeCulture #BrunchIdeas",
+    "alt_text": "Stack of purple ube mochi waffles topped with ube butter scoop and strawberries.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_26",
+    "image": "posts/ready/UbeCulture_Post_26_UbeBrownies.jpg",
+    "caption": "Dark 70% cacao marbled with creamy violet ube cheesecake.\n\nA pinch of flaky sea salt cuts right through the rich chocolate fudge and lets the nutty vanilla notes of ube shine.\n\nSave this brownie bake for your next tray.\n\n#UbeBrownies #CheesecakeBrownies #UbeCulture #BakingIndia",
+    "alt_text": "Stack of dark chocolate fudge brownies swirled with violet ube cheesecake and sea salt flakes.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_27",
+    "image": "posts/ready/UbeCulture_Post_27_EcoFarming.jpg",
+    "caption": "Great purple yam starts with rain-fed soil and fair grower partnerships.\n\nNaturally hardy ube vines thrive in crop rotations across the Philippines with minimal irrigation before reaching our mill.\n\nSave this to learn how our yams are grown.\n\n#SustainableFarming #PhilippineUbe #UbeCulture #EthicalSourcing",
+    "alt_text": "Lush green climbing ube yam vines growing along bamboo trellises in sunlight.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_28",
+    "image": "posts/ready/UbeCulture_Post_28_WhippedUbeCream.jpg",
+    "caption": "The 20-second barista ratio for velvet ube cold foam.\n\nFroth 60 ml chilled whipping cream, 30 ml cold milk, a pinch of salt, and 1 tsp Ube Culture Powder until glossy and thick.\n\nSave this ratio for your espresso bar.\n\n#UbeColdFoam #BaristaRatio #UbeCulture #IcedCoffee",
+    "alt_text": "Whisk lifting thick purple ube cold foam above a pitcher beside an iced coffee glass.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_29",
+    "image": "posts/ready/UbeCulture_Post_29_UbeVsPurpleYam.jpg",
+    "caption": "Purple sweet potato is not real ube.\n\nDioscorea alata (true ube) brings sweet pistachio-vanilla notes and silky latte texture, while purple sweet potato turns chalky and earthy in drinks.\n\nSave this guide so you always know what is in your cup.\n\n#RealUbe #UbeVsSweetPotato #UbeCulture #SpecialtyBeverages",
+    "alt_text": "Side-by-side comparison chart of Real Ube versus Purple Sweet Potato.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_30",
+    "image": "posts/ready/UbeCulture_Post_30_UbeBobaLatte.jpg",
+    "caption": "Warm brown-sugar pearls under chilled velvety ube milk.\n\nReal Philippine ube powder gives bubble tea bars a clean, naturally creamy purple base without syrupy artificial taste.\n\nTag a boba spot that needs this on tap.\n\n#UbeBoba #BubbleTeaIndia #UbeCulture #BobaLatte",
+    "alt_text": "Clear cup of iced purple ube milk tea layered over warm brown-sugar tapioca pearls.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_31",
+    "image": "posts/ready/UbeCulture_Post_31_PanIndiaShipping.jpg",
+    "caption": "From our vault to every pincode across 28+ Indian states.\n\nAll retail pouches and bulk HoReCa café packs are packed fresh and dispatched within 24 working hours.\n\nDM us ORDER for bulk café rates or pan-India shipping.\n\n#PanIndiaDelivery #HoReCaIndia #UbeCulture #CafeSupply",
+    "alt_text": "Shipping infographic showing 24H express dispatch, 28+ states covered, and bulk HoReCa packs.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_32",
+    "image": "posts/ready/UbeCulture_Post_32_UbeMacarons.jpg",
+    "caption": "Delicate macaron shells without watering down your meringue.\n\nUltra-fine 100% pure Ube Powder tints and flavours both almond shells and whipped ganache cleanly with zero liquid dye.\n\nSave this for your next French pastry batch.\n\n#UbeMacarons #FrenchPastry #UbeCulture #PatisserieIndia",
+    "alt_text": "Pastel purple ube macarons finished with edible gold leaf flakes on white marble.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_33",
+    "image": "posts/ready/UbeCulture_Post_33_ZeroArtificialDyes.jpg",
+    "caption": "No Red 40, no Blue 1, and zero synthetic purple flavour.\n\nEvery spoonful of Ube Culture powder gets its violet hue strictly from lab-tested, single-origin Philippine purple yam.\n\nSave this clean-label promise for your customers.\n\n#ZeroArtificialDyes #CleanLabel #UbeCulture #RealUbe",
+    "alt_text": "Halved fresh purple yam tuber showing deep natural violet flesh on a clean white studio backdrop.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_34",
+    "image": "posts/ready/UbeCulture_Post_34_UbeOvernightOats.jpg",
+    "caption": "Five minutes before bed for a purple breakfast waiting in the fridge.\n\nStir 1/2 cup rolled oats, 1 tbsp chia, 3/4 cup almond milk, and 1 tsp Ube Powder, then top with berries in the morning.\n\nSave this easy meal prep jar.\n\n#UbeOats #OvernightOats #UbeCulture #HealthyBreakfast",
+    "alt_text": "Layered purple ube overnight oats in a glass jar topped with blackberries, banana, and oats.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_35",
+    "image": "posts/ready/UbeCulture_Post_35_ChefQuoteSpotlight.jpg",
+    "caption": "Consistent purple colour and clean yam taste in every single bake.\n\nOur B2B pastry partners use Ube Culture across croissants, Basque cheesecakes, and tarts without synthetic aftertaste.\n\nComment B2B if your bakery wants a chef trial pack.\n\n#PastryChefIndia #B2BBakery #UbeCulture #ArtisanPastry",
+    "alt_text": "Pastry chef dusting purple ube powder over freshly baked laminated croissants and danishes.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_36",
+    "image": "posts/ready/UbeCulture_Post_36_UbeHistory1900s.jpg",
+    "caption": "Over a century of Filipino culinary tradition in every jar.\n\nLong before trending in specialty cafés worldwide, families across the Philippines simmered purple yam into beloved Ube Halaya jam.\n\nShare this piece of ube heritage.\n\n#UbeHalaya #UbeHistory #UbeCulture #PhilippineFood",
+    "alt_text": "Stone mortar and pestle with ground purple ube powder, sliced dried yam, and whole tuber.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_37",
+    "image": "posts/ready/UbeCulture_Post_37_UbeCinnamonRolls.jpg",
+    "caption": "Warm spiced brioche swirled with violet ube cream-cheese glaze.\n\nAdding 1 tbsp Ube Culture powder to warm cream-cheese frosting gives cinnamon rolls rich colour and nutty vanilla depth.\n\nSave this weekend bake idea.\n\n#UbeCinnamonRolls #WeekendBaking #UbeCulture #BakeryTreats",
+    "alt_text": "Baking dish of warm cinnamon rolls topped with glossy purple ube cream-cheese frosting.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_38",
+    "image": "posts/ready/UbeCulture_Post_38_UbeProteinShake.jpg",
+    "caption": "Post-workout recovery without artificial berry flavours.\n\nBlend 1 scoop vanilla whey, 1 tsp Ube Powder, and frozen banana for complex carbs, potassium, and plant antioxidants.\n\nSave this shake for after your next session.\n\n#UbeProteinShake #FitnessFuel #UbeCulture #CleanNutrition",
+    "alt_text": "Dark slate table with a purple ube blueberry protein smoothie beside a matte black shaker bottle.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_39",
+    "image": "posts/ready/UbeCulture_Post_39_UbeChiffonCake.jpg",
+    "caption": "Pillow-soft chiffon sponge tinted 100% naturally.\n\nReal Philippine ube powder whips cleanly into egg-white chiffon batters for an airy violet crumb that melts on the fork.\n\nSave this classic cake inspiration.\n\n#UbeChiffonCake #CakeBaking #UbeCulture #PastryKitchen",
+    "alt_text": "Tall slice of airy purple ube chiffon cake topped with whipped cream on a pale blue plate.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_40",
+    "image": "posts/ready/UbeCulture_Post_40_WhyUbeCultureTable.jpg",
+    "caption": "Not all purple powders perform the same behind the bar.\n\nUnlike starchy, pre-sweetened blends, Ube Culture is 100% unsweetened Philippine purple yam milled ultra-fine for smooth dissolving.\n\nSave this checklist before ordering bulk powder.\n\n#UbeCulture #QualityIngredients #CafeSupplyIndia #RealUbe",
+    "alt_text": "Comparison table contrasting Ube Culture against generic purple powders across five quality standards.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_41",
+    "image": "posts/ready/UbeCulture_Post_41_UbeHotChocolate.jpg",
+    "caption": "Melted white chocolate steamed with milk and 1 tsp Ube Powder.\n\nTopped with toasted marshmallows, ube white hot chocolate turns cold evenings into a signature cozy mug ritual.\n\nSave this winter drink recipe.\n\n#UbeHotChocolate #WinterDrinks #UbeCulture #CozyMug",
+    "alt_text": "Ceramic mug of purple ube white hot chocolate topped with toasted marshmallows on a knit blanket.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_42",
+    "image": "posts/ready/UbeCulture_Post_42_CommunityRemixMosaic.jpg",
+    "caption": "Matcha ube latte, Basque cheesecake, tiramisu, or brown-sugar boba.\n\nFour signature creations built from one pouch of pure Philippine ube powder. Which one is hitting your kitchen first?\n\nTag @ubeculture on your next pour to get featured.\n\n#UbeCulture #UbeRecipes #HomeBarista #CafeCreations",
+    "alt_text": "Four-square grid showing Matcha Ube Latte, Basque Cheesecake, Ube Tiramisu, and Brown Sugar Boba.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_43",
+    "image": "posts/ready/UbeCulture_Post_43_CaffeineFreeEnergy.jpg",
+    "caption": "Zero caffeine, low glycemic impact, and steady afternoon focus.\n\nEnjoy creamy iced or hot ube lattes late in the evening without espresso jitters or a sugar crash.\n\nSave this for your caffeine-free drink rotation.\n\n#CaffeineFreeLatte #EveningDrink #UbeCulture #MindfulSipping",
+    "alt_text": "Wellness graphic showing 0mg caffeine, low glycemic impact, and 100% natural purple yam phytonutrients.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_44",
+    "image": "posts/ready/UbeCulture_Post_44_UbeCrinkleCookies.jpg",
+    "caption": "Snowy powdered-sugar crackle around a soft purple fudgy center.\n\nRoll chilled ube cookie dough generously in icing sugar right before baking for bold contrast out of the oven.\n\nSave these ube crinkle cookies for your bake list.\n\n#UbeCrinkleCookies #CookieRecipes #UbeCulture #HomeBaking",
+    "alt_text": "Batch of purple ube crinkle cookies coated in cracked white powdered sugar on parchment paper.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_45",
+    "image": "posts/ready/UbeCulture_Post_45_DosageCheatSheet.jpg",
+    "caption": "Stop guessing how much ube powder goes into each batch.\n\nUse 1 tsp (4g) per 250 ml latte, 1.5 tsp (6g) for smoothies, 1 tbsp (10g) per cup of batter, and 2 tbsp (20g) per 500g cake or gelato base.\n\nSave this dosage chart for your bar and kitchen.\n\n#UbeRatio #BaristaCheatSheet #UbeCulture #BakingMeasurements",
+    "alt_text": "Exact Ube Culture powder dosage cheat sheet for lattes, smoothies, pancakes, cakes, and gelato.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_46",
+    "image": "posts/ready/UbeCulture_Post_46_UbeMatchaParfait.jpg",
+    "caption": "Matcha sponge layered beneath whipped Philippine ube mascarpone.\n\nEarthy green tea and sweet nutty purple yam balance each other effortlessly in one plated coupe dessert.\n\nSave this plated dessert idea for your menu.\n\n#UbeMatchaParfait #PlatedDessert #UbeCulture #PastryMenu",
+    "alt_text": "Coupe glass dessert with green matcha sponge base topped with purple ube mascarpone cream.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_47",
+    "image": "posts/ready/UbeCulture_Post_47_WholesaleCafeStarter.jpg",
+    "caption": "40+ café cups from a single 100g pouch with zero added sugar.\n\nRequest a Café Trial Pack with laminated barista recipe cards and 48-hour priority dispatch across India.\n\nDM us CAFE to order your 100g sample, 500g barista, or 1kg HoReCa pack.\n\n#WholesaleUbe #CafeStarterPack #UbeCulture #HoReCaIndia",
+    "alt_text": "B2B wholesale card offering 100g sample, 500g barista, and 1kg HoReCa café trial packs.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_48",
+    "image": "posts/ready/UbeCulture_Post_48_UbeFrenchToast.jpg",
+    "caption": "Golden brioche stuffed with whipped ube mascarpone and berries.\n\nA warm drizzle of maple syrup over the violet filling makes this an instant weekend brunch standout.\n\nSave this French toast recipe for Sunday morning.\n\n#UbeFrenchToast #WeekendBrunch #UbeCulture #CafeBrunch",
+    "alt_text": "Thick slices of brioche French toast stuffed with purple ube mascarpone cream and fresh berries.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_49",
+    "image": "posts/ready/UbeCulture_Post_49_LivePurpleBold.jpg",
+    "caption": "Pure colour, real roots, and zero compromise in every scoop.\n\nWe started Ube Culture so Indian cafés, bakers, and home kitchens never have to settle for artificial purple syrup again.\n\nShare this with someone building a cleaner menu.\n\n#UbeCulture #PureColourRealRoots #SpecialtyIngredients #IndiaCoffee",
+    "alt_text": "Swirling purple and metallic gold fluid artwork with the Ube Culture manifesto.",
+    "status": "pending",
+    "scheduled_for": ""
+  },
+  {
+    "id": "post_50",
+    "image": "posts/ready/UbeCulture_Post_50_ThankYouCommunity.jpg",
+    "caption": "Thank you to every barista, baker, and home kitchen pouring with us.\n\nFrom your first iced ube latte to full café menu launches, you helped build India's largest real purple yam community.\n\nComment your favourite ube creation from this series.\n\n#UbeCulture #UbeCommunity #PhilippineUbe #ThankYou",
+    "alt_text": "Iced ube latte, purple yam tubers, and a bowl of stone-milled ube powder in warm morning sunlight.",
     "status": "pending",
     "scheduled_for": ""
   }

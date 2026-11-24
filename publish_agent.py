@@ -23,8 +23,11 @@ from typing import Any, Optional
 import requests
 from PIL import Image
 
+from auto_caption import generate_caption_for_image
+
 BASE_DIR = Path(__file__).resolve().parent
 QUEUE_FILE = BASE_DIR / os.getenv("QUEUE_FILE", "queue.json")
+READY_DIR = BASE_DIR / "posts" / "ready"
 API_VERSION = os.getenv("IG_API_VERSION", "v21.0")
 CONTAINER_POLL_SECONDS = 5
 CONTAINER_MAX_WAIT_SECONDS = 90
@@ -32,9 +35,42 @@ CONTAINER_MAX_WAIT_SECONDS = 90
 
 def load_queue(queue_path: Path) -> list[dict[str, Any]]:
     if not queue_path.exists():
-        raise FileNotFoundError(f"Queue file not found: {queue_path}")
+        return []
     with open(queue_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def sync_new_images(queue: list[dict[str, Any]]) -> bool:
+    """Auto-discover any new JPEGs in posts/ready/ not yet tracked in queue.json."""
+    if not READY_DIR.exists():
+        return False
+    known_paths = {item.get("image", "").replace("\\", "/") for item in queue}
+    existing_ids = {item.get("id", "") for item in queue}
+    added = False
+
+    for jpg in sorted(READY_DIR.glob("*.jpg")):
+        rel = f"posts/ready/{jpg.name}"
+        if rel in known_paths:
+            continue
+        base_id = jpg.stem.lower()
+        post_id = base_id
+        suffix = 2
+        while post_id in existing_ids:
+            post_id = f"{base_id}_{suffix}"
+            suffix += 1
+        existing_ids.add(post_id)
+        known_paths.add(rel)
+        queue.append({
+            "id": post_id,
+            "image": rel,
+            "caption": "",
+            "alt_text": "",
+            "status": "pending",
+            "scheduled_for": "",
+        })
+        added = True
+        print(f"[sync] Discovered new post image: {rel} -> queued as {post_id}")
+    return added
 
 
 def save_queue(queue_path: Path, queue: list[dict[str, Any]]) -> None:
@@ -266,6 +302,10 @@ def main() -> int:
         return 0
 
     queue = load_queue(QUEUE_FILE)
+    queue_changed = sync_new_images(queue)
+    if queue_changed and not args.dry_run:
+        save_queue(QUEUE_FILE, queue)
+
     post = select_next_post(queue, args.post_id or None)
     if not post:
         print("No pending due posts in queue.json. Nothing to publish today.")
@@ -274,6 +314,13 @@ def main() -> int:
     rel_image = post["image"]
     abs_image = BASE_DIR / rel_image
     w, h, size_bytes = validate_jpeg(abs_image)
+
+    if not (post.get("caption") or "").strip():
+        print(f"[auto_caption] Generating content-matched caption & hashtags for {post['id']}...")
+        generated = generate_caption_for_image(abs_image)
+        post["caption"] = generated["caption"]
+        if not (post.get("alt_text") or "").strip() and generated.get("alt_text"):
+            post["alt_text"] = generated["alt_text"]
 
     print("=" * 64)
     print(f"Selected post : {post['id']}")

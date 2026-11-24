@@ -12,10 +12,11 @@ Publishes scheduled posts from `queue.json` to **@ubeculture** automatically usi
 
 ## Project Structure
 
-- `posts/raw/` — Drop your raw `.png` / `.jpg` designs here (already loaded with your 14 Ube Culture posts).
+- `posts/raw/` — Drop your raw `.png` / `.jpg` designs here (already loaded with all 50 Ube Culture posts).
 - `posts/ready/` — Auto-generated Instagram-compliant JPEGs (`prepare_images.py`).
 - `queue.json` — Ordered queue of posts, captions, alt text, optional `scheduled_for` ISO dates, and publish status.
-- `publish_agent.py` — Validates the next due post, publishes via Instagram Graph API, and updates `queue.json`.
+- `auto_caption.py` — Automatically reads the content inside any newly dropped post image (via Gemini Vision if `GEMINI_API_KEY` is set, or free Tesseract OCR + topic rules otherwise) to generate tailored captions, alt text, and hashtags.
+- `publish_agent.py` — Auto-discovers new images, generates missing captions/hashtags, validates JPEGs, publishes via Instagram Graph API, and updates `queue.json`.
 - `.github/workflows/autopost.yml` — Runs daily at **7:00 PM IST (13:30 UTC)** and supports 1-click manual runs & dry-runs.
 
 ---
@@ -46,6 +47,7 @@ Publishes scheduled posts from `queue.json` to **@ubeculture** automatically usi
 In your GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**:
 - `IG_USER_ID` — your numeric Instagram Business/Creator User ID
 - `IG_ACCESS_TOKEN` — your long-lived Instagram or System User Access Token
+- *(Optional, free)* `GEMINI_API_KEY` — free Google AI Studio key for AI vision captioning of future newly added images (if omitted, built-in Tesseract OCR auto-captioning runs for free)
 - *(Optional, only for Private repos)* `CLOUDINARY_CLOUD_NAME` and `CLOUDINARY_UPLOAD_PRESET`
 
 ### Step 5: Test Before Going Live
