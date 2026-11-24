@@ -81,6 +81,9 @@ def save_compliant_jpeg(src_path: Path, dst_path: Path) -> tuple[tuple[int, int]
 
 def main() -> None:
     READY_DIR.mkdir(parents=True, exist_ok=True)
+    if not RAW_DIR.exists():
+        print(f"Raw folder does not exist yet ({RAW_DIR}); skipping image conversion.")
+        return
     raw_files = sorted(
         p for p in RAW_DIR.iterdir()
         if p.is_file() and p.suffix.lower() in SUPPORTED_EXTS
